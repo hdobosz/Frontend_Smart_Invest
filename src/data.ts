@@ -9,71 +9,85 @@ export const menu = [
           url: "/",
           icon: "home.svg",
         },
+        
         {
           id: 2,
-          title: "Reservations",
-          url: "/users/1",
+          title: "Trading",
+          url: "/dashboard",
           icon: "user.svg",
         },
         {
           id: 3,
-          title: "Invoices",
-          url: "/users/1",
+          title: "Porfolio",
+          url: "/dashboard",
           icon: "post2.svg",
         },
 
         {
           id: 4,
-          title: "Calendar",
+          title: "about us",
           url: "/",
           icon: "calendar.svg",
         },
-      ],
-    },
-    {
-      id: 2,
-      title: "Settings",
-      listItems: [
         {
-          id: 1,
-          title: "Apartments",
+          id: 5,
+          title: "Contact",
           url: "/users",
           icon: "apartment3.svg",
         },
-        {
-          id: 2,
-          title: "Platforms",
-          url: "/products",
-          icon: "product.svg",
-        },
-        {
-          id: 3,
-          title: "Tax rates",
-          url: "/orders",
-          icon: "order.svg",
-        },
 
+        {
+          id: 6,
+          title: "Invest now!",
+          url: "/users",
+          icon: "apartment3.svg",
+        },
       ],
     },
-    {
-      id: 3,
-      title: "Reports",
-      listItems: [
-        {
-          id: 1,
-          title: "City tax",
-          url: "/",
-          icon: "element.svg",
-        },
-        {
-          id: 2,
-          title: "Sales",
-          url: "/",
-          icon: "note.svg",
-        },
+    // {
+    //   id: 2,
+    //   title: "Settings",
+    //   listItems: [
+    //     {
+    //       id: 1,
+    //       title: "Apartments",
+    //       url: "/users",
+    //       icon: "apartment3.svg",
+    //     },
+    //     {
+    //       id: 2,
+    //       title: "Platforms",
+    //       url: "/products",
+    //       icon: "product.svg",
+    //     },
+    //     {
+    //       id: 3,
+    //       title: "Tax rates",
+    //       url: "/orders",
+    //       icon: "order.svg",
+    //     },
 
-      ],
-    },
+    //   ],
+    // },
+    // {
+    //   id: 3,
+    //   title: "Reports",
+    //   listItems: [
+    //     {
+    //       id: 1,
+    //       title: "City tax",
+    //       url: "/",
+    //       icon: "element.svg",
+    //     },
+    //     {
+    //       id: 2,
+    //       title: "Sales",
+    //       url: "/",
+    //       icon: "note.svg",
+    //     },
+
+    //   ],
+    // },
 
 
   ];
